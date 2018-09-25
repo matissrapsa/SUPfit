@@ -42,7 +42,7 @@ include('template.php');
 <?php
 if(isset($_POST['go'])){
     echo "Lietotāja Epasts: <b>{$_POST['email']}</b><br/>";
-    echo "Lietotāja Parole: <b>{$_POST['psw']}</b>";
+    echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
 }
 ?>
 <?php getEnd(); ?>

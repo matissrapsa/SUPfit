@@ -18,7 +18,7 @@ include('template.php');
     <div class="row">
         <div class="container-login" style="background-image: url('./img/wallpaper.jpg');">
             <section class="login-form">
-                <form method="post" action="Registreties" role="login" autocomplete="on" >
+                <form method="post" action="Registreties.php" role="login" autocomplete="on" >
                     <img src="./img/LOGO_Top.png" class="img-responsive" alt="LOGO" />
 
                     <input type="text" name="fname" placeholder="Vārds" required  class="form-control input-lg" />
@@ -65,7 +65,34 @@ include('template.php');
 
 </script>
 
+<?php
+$connection = new mysqli($server, $serverUsername, $serverPassword);
 
+if ($connection->connect_error) {
+    die("Connection failed: ". $connection->connect_error);
+}
+
+mysqli_select_db($connection, 'sup');
+
+$vards = $_POST['fname'];
+$uzvards = $_POST['lname'];
+$tel = $_POST['tel'];
+$email = $_POST['email'];
+$pwd1 = $_POST['pwd1'];
+
+$sql = "INSERT INTO users (vards,uzvards,tel,email,pwd1) VALUES ('$vards','$uzvards','$tel','$email','$pwd1')";
+
+if (!mysqli_query($connection,$sql))
+{
+    echo 'not inserted';
+}
+
+else{
+}
+
+
+
+?>
 
 <?php
 if(isset($_POST['register'])){
