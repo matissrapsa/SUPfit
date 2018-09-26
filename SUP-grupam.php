@@ -19,7 +19,7 @@ include('template.php');
 		</div>
 	</div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
-        <img src="./img/Foto-Martins-Plume-19.jpg" alt="Plūme foto" class="img80">
+        <img src="img/Foto-Martins-Plume-19.jpg" alt="Plūme foto" class="img80">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="left">
     	<h2><strong>SUP inventārs</strong></h2>

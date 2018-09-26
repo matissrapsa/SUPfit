@@ -17,7 +17,7 @@ include('template.php');
         <div class="row">
         	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                <form class="navbar-form navbar-left" action="/action_page.php">
+                <form class="navbar-form navbar-left" action="action_page.php">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Meklēt" name="search">
                         <div class="input-group-btn">

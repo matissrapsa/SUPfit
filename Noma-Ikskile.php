@@ -40,7 +40,7 @@ include('template.php');
                 <p>Pieejama SUP noma, apmācība un SUP fitnesa nodarbības. Iespējams pasūtīt un iegādāties <a
                             href="http://www.redpaddleco.lv/">Red Paddle Co</a> SUP dēļus.</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2183.462809402125!2d24.49837851597229!3d56.820848780852415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e92fc41723ac87%3A0x72a8fa633efe87d1!2zU3VwZml0IElrxaHEt2lsZQ!5e0!3m2!1sen!2slv!4v1537796632734" width="80%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="./img/SUP_ikskile.jpg" alt="Ikšķile" class="img80">
+                <img src="img/SUP_ikskile.jpg" alt="Ikšķile" class="img80">
 
 
 

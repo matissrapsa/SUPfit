@@ -60,7 +60,7 @@ include('template.php');
                 <br><br>
                 <p><strong>Mums tagad nomā arī RIDE XL SUP dēlis – uz tā var uzkāpt vismaz 8 cilvēki. Komplektā dodam 8 – 10 airus, četrus pumpjus un dēļa somu. Lielisks sporta spēlēs, komandas saliedēšanas pasākumos un ballītēs. Cena – 80 eiro diennaktī vai 30 eiro stundā.</strong></p>
                 <br>
-                <img src="./img/SUP_karte.png" alt="karte">
+                <img src="img/SUP_karte.png" alt="karte">
 
 
     		</div>

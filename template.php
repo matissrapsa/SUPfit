@@ -36,27 +36,27 @@ function getMenu(){
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class=""><a href="./Blogs">Blogs</a></li>
-                            <li><a href="./Veikals">Veikals</a></li>
+                            <li class=""><a href="Blogs">Blogs</a></li>
+                            <li><a href="Veikals">Veikals</a></li>
                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Noma<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./Noma-Riga">Rīga</a></li>
-                                    <li><a href="./Noma-Ikskile">Ikšķile</a></li>
+                                    <li><a href="Noma-Riga">Rīga</a></li>
+                                    <li><a href="Noma-Ikskile">Ikšķile</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SUP<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./SUP-fitness">SUP fitness</a></li>
-                                    <li><a href="./SUP-braucieni">SUP braucieni</a></li>
-                                    <li><a href="./SUP-grupam">SUP grupām</a></li>
-                                    <li><a href="./SUP-skola">SUP skola</a></li>
+                                    <li><a href="SUP-fitness">SUP fitness</a></li>
+                                    <li><a href="SUP-braucieni">SUP braucieni</a></li>
+                                    <li><a href="SUP-grupam">SUP grupām</a></li>
+                                    <li><a href="SUP-skola">SUP skola</a></li>
                                 </ul>
                             </li>
                             <li><a href="https://www.supfests.lv/">SUP fests</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="./Grozs"><span class="glyphicon glyphicon-shopping-cart"> 0.00</span></a></li>
-                            <li><a href="./Pieslegties"><span class="glyphicon glyphicon-log-in"></span> Pieslegties</a></li>
+                            <li><a href="Grozs"><span class="glyphicon glyphicon-shopping-cart"> 0.00</span></a></li>
+                            <li><a href="Pieslegties"><span class="glyphicon glyphicon-log-in"></span> Pieslegties</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,10 +77,10 @@ function getFoot() {
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text_botom">
                         <p><strong><a href="https://goo.gl/maps/xG5rVTzWgkx" class="black">Adrese</a></strong> <br> Andrejsala, Andrejostas iela 5, K–7, Rīga, LV-1001, Latvija </p>
-                        <p><strong><a href="./Kontakti" class="black">Kontakti</a></strong> <br><a href="mailto:info@supfit.lv" class="black">info@supfit.lv</a> <br>
+                        <p><strong><a href="Kontakti" class="black">Kontakti</a></strong> <br><a href="mailto:info@supfit.lv" class="black">info@supfit.lv</a> <br>
                         <a href="tel:0037129618236" class="black">+371 29618236</a> </p>
                         <p><strong>Darba laiks</strong><br>Katru dienu no 12:00 – 19:00 vai <br>pēdējam klientam.</p>
-                        <p><strong><a href="./Veikala-lietosanas-noteikumi" class="black">Veikala lietošanas noteikumi</a></strong></p>
+                        <p><strong><a href="Veikala-lietosanas-noteikumi" class="black">Veikala lietošanas noteikumi</a></strong></p>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@ function shopItem() {
     echo '
      
      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 shopItem">
-     	<img src="./img/titan-pump-1.jpg" alt="Item">
+     	<img src="img/titan-pump-1.jpg" alt="Item">
      	<h3 align="center">Titan Pumpis</h3>
      </div>
      

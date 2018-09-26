@@ -21,7 +21,7 @@ include('template.php');
 
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
-            <img src="./img/brauciens_kanala.jpg" alt="SUP brauciens kanālā" class="img80" align="center">
+            <img src="img/brauciens_kanala.jpg" alt="SUP brauciens kanālā" class="img80" align="center">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="left">
 

@@ -27,11 +27,11 @@ include('template.php');
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="./img/Onewheel_1140x500.jpg" alt="Onewheel" style="width:100%;">
+                                    <img src="img/Onewheel_1140x500.jpg" alt="Onewheel" style="width:100%;">
                                 </div>
 
                                 <div class="item">
-                                    <img src="./img/Ban_1140x500.png" alt="Kredīts" style="width:100%;">
+                                    <img src="img/Ban_1140x500.png" alt="Kredīts" style="width:100%;">
                                 </div>
 
 <!--                                <div class="item">-->

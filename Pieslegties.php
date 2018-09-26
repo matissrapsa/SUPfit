@@ -28,7 +28,7 @@ include('template.php');
 
                     <button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Pieslēgties</button>
                     <div>
-                        <a href="./Registreties">Izveidot kontu</a> vai <a href="#">aizmirsi paroli?</a>
+                        <a href="Registreties">Izveidot kontu</a> vai <a href="#">aizmirsi paroli?</a>
                     </div>
 
                 </form>

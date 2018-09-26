@@ -19,7 +19,7 @@ include('template.php');
         <div class="container-login" style="background-image: url('./img/wallpaper.jpg');">
             <section class="login-form">
                 <form method="post" action="Registreties.php" role="login" autocomplete="on" >
-                    <img src="./img/LOGO_Top.png" class="img-responsive" alt="LOGO" />
+                    <img src="img/LOGO_Top.png" class="img-responsive" alt="LOGO" />
 
                     <input type="text" name="fname" placeholder="Vārds" required  class="form-control input-lg" />
 
@@ -39,7 +39,7 @@ include('template.php');
 
                     <label>
                         <input type="checkbox" name="accept" required class="" style="margin-bottom:15px"> Piekrītu <a
-                                href="./Veikala-lietosanas-noteikumi"> Veikala lietošanas noteikumime</a>
+                                href="Veikala-lietosanas-noteikumi"> Veikala lietošanas noteikumime</a>
                     </label>
 
                     <button type="submit" name="register" class="btn btn-lg btn-primary btn-block">Reģistrēties</button>
@@ -72,15 +72,15 @@ if ($connection->connect_error) {
     die("Connection failed: ". $connection->connect_error);
 }
 
-mysqli_select_db($connection, 'sup');
+    mysqli_select_db($connection, 'sup');
 
-$vards = $_POST['fname'];
-$uzvards = $_POST['lname'];
-$tel = $_POST['tel'];
-$email = $_POST['email'];
-$pwd1 = $_POST['pwd1'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $tel = $_POST['tel'];
+    $email = $_POST['email'];
+    $pwd1 = $_POST['pwd1'];
 
-$sql = "INSERT INTO users (vards,uzvards,tel,email,pwd1) VALUES ('$vards','$uzvards','$tel','$email','$pwd1')";
+    $sql = "INSERT INTO users (vards,uzvards,tel,email,pwd1) VALUES ('$fname','$lname','$tel','$email','$pwd1')";
 
 if (!mysqli_query($connection,$sql))
 {
@@ -103,6 +103,7 @@ if(isset($_POST['register'])){
     echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
 }
 ?>
+
 <?php getEnd(); ?>
 </body>
 </html>

@@ -18,7 +18,7 @@ include('template.php');
 			<h1><strong>SUP skola</strong></h1>
 		</div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="./img/SUP-apmaciba.png" alt="SUP apmācība" class="img80">
+            <img src="img/SUP-apmaciba.png" alt="SUP apmācība" class="img80">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         	<p>Darot lietas pareizi, tās izdodas vieglāk un sagādā lielāku prieku. Tas attiecas arī uz SUP airēšanu. Tādēļ vēlamies Tev dot iespēju pilnveidot savas iemaņas uz SUP dēļa SUP skolā. SUP apmācība notiks pieredzējuša profesionāļa vadībā.
