@@ -1,6 +1,7 @@
 <?php
 include('main.php');
 include('template.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="lv">
@@ -18,7 +19,7 @@ include('template.php');
     <div class="row">
         <div class="container-login" style="background-image: url('./img/wallpaper.jpg');">
             <section class="login-form">
-                <form method="post" action="Registreties.php" role="login" autocomplete="on" >
+                <form method="post" action="php/register.php" role="login" autocomplete="on" >
                     <img src="img/LOGO_Top.png" class="img-responsive" alt="LOGO" />
 
                     <input type="text" name="fname" placeholder="Vārds" required  class="form-control input-lg" />
@@ -65,43 +66,16 @@ include('template.php');
 
 </script>
 
-<?php
-$connection = new mysqli($server, $serverUsername, $serverPassword);
 
-if ($connection->connect_error) {
-    die("Connection failed: ". $connection->connect_error);
-}
-
-    mysqli_select_db($connection, 'sup');
-
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
-    $tel = $_POST['tel'];
-    $email = $_POST['email'];
-    $pwd1 = $_POST['pwd1'];
-
-    $sql = "INSERT INTO users (vards,uzvards,tel,email,pwd1) VALUES ('$fname','$lname','$tel','$email','$pwd1')";
-
-if (!mysqli_query($connection,$sql))
-{
-    echo 'not inserted';
-}
-
-else{
-}
-
-
-
-?>
 
 <?php
-if(isset($_POST['register'])){
-    echo "Lietotāja Vārds: <b>{$_POST['fname']}</b><br/>";
-    echo "Lietotāja Uzvārds: <b>{$_POST['lname']}</b><br>";
-    echo "Lietotāja Telefona nummurs: <b>{$_POST['tel']}</b><br>";
-    echo "Lietotāja Epasts: <b>{$_POST['email']}</b><br/>";
-    echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
-}
+//if(isset($_POST['register'])){
+//    echo "Lietotāja Vārds: <b>{$_POST['fname']}</b><br/>";
+//    echo "Lietotāja Uzvārds: <b>{$_POST['lname']}</b><br>";
+//    echo "Lietotāja Telefona nummurs: <b>{$_POST['tel']}</b><br>";
+//    echo "Lietotāja Epasts: <b>{$_POST['email']}</b><br/>";
+//    echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
+//}
 ?>
 
 <?php getEnd(); ?>

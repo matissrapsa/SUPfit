@@ -1,6 +1,7 @@
 <?php
 include('main.php');
 include('template.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="lv">
@@ -18,7 +19,7 @@ include('template.php');
     <div class="row">
         <div class="container-login" style="background-image: url('./img/wallpaper.jpg');">
             <section class="login-form">
-                <form method="post" action="Pieslegties" role="login" autocomplete="on">
+                <form method="post" action="php/login.php" role="login" autocomplete="on">
                     <img src="./img/LOGO_Top.png" class="img-responsive" alt="LOGO" />
 
                     <input type="email" name="email" placeholder="Epasts" required class="form-control input-lg"  />
@@ -40,10 +41,16 @@ include('template.php');
 <?php getFoot(); ?>
 
 <?php
-if(isset($_POST['go'])){
-    echo "Lietotāja Epasts: <b>{$_POST['email']}</b><br/>";
-    echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
+if (isset($_SESSION['id'])){
+    echo "yeeeeeeeeeessssssss";
 }
+?>
+
+<?php
+//if(isset($_POST['go'])){
+//    echo "Lietotāja Epasts: <b>{$_POST['email']}</b><br/>";
+//    echo "Lietotāja Parole: <b>{$_POST['pwd1']}</b>";
+//}
 ?>
 <?php getEnd(); ?>
 </body>

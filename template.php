@@ -57,6 +57,12 @@ function getMenu(){
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="Grozs"><span class="glyphicon glyphicon-shopping-cart"> 0.00</span></a></li>
                             <li><a href="Pieslegties"><span class="glyphicon glyphicon-log-in"></span> Pieslegties</a></li>
+                            
+                            <?php   
+                            
+                            
+                            ?>
+                            
                         </ul>
                     </div>
                 </div>
@@ -148,8 +154,12 @@ function getFoot() {
 }
 
 function getEnd() {
+if (isset($_SESSION['id'])){
+    echo "yeeeeeeeeeessssssss";
+}
+
     echo '
-      <!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
             ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
